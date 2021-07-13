@@ -1,0 +1,40 @@
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+}
+.div_1
+{
+    width:100%;
+    padding:10px;
+    font-size: 18px;
+}
+.display1
+{
+    margin-top: 50px;
+}
+canvas
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    animation-name:animation1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation1
+{
+    from{box-shadow: 30px 30px 50px purple};
+    to{box-shadow: 30px 30px 50px blue};
+}
+.display1
+{
+    animation-name: animation2;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+@keyframes animation2
+{
+    from{box-shadow: 10px 10px 20px orange};
+    to{box-shadow: 10px 10px 20px yellow};
+}
